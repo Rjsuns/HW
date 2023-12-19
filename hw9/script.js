@@ -243,7 +243,7 @@ for (const course of coursesArray) {
     p2.style.display = 'inline-block';
     p2.style.width = '75%';
 
-    durationDiv.append(p, p2); // додаємо обидва блоки до нового div
+    durationDiv.append(p, p2);
 
     let ul = document.createElement('ul');
     ul.classList.add('modules');
